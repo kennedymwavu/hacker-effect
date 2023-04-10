@@ -72,7 +72,7 @@ server <- function(input, output, session) {
     
     # increment iterations:
     n <- rv_iterations()
-    rv_iterations(n + 1 / 40) # 40 iterations per letter
+    rv_iterations(n + 1 / 20) # 20 iterations per letter
   },
   suspended = TRUE
   )
